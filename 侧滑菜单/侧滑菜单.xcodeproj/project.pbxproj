@@ -413,6 +413,7 @@
 					};
 					DA88941F1B53E3FF00B47DE7 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = D52FXE4R6B;
 						TestTargetID = DA8894061B53E3FF00B47DE7;
 					};
 				};
@@ -660,6 +661,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = D52FXE4R6B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -679,6 +682,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = D52FXE4R6B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
