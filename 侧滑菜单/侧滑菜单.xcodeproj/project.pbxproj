@@ -50,9 +50,9 @@
 		DA8894391B53F00300B47DE7 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8894381B53F00300B47DE7 /* RightViewController.m */; };
 		DA88943F1B53F0CB00B47DE7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88943E1B53F0CB00B47DE7 /* LeftViewController.m */; };
 		DAADC32A1B5B40A700E6C503 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DAADC3291B5B40A700E6C503 /* TitleButton.m */; };
-		DADDB5121BC8EEFD0029AC56 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB50D1BC8EEFD0029AC56 /* DCPathButton.m */; settings = {ASSET_TAGS = (); }; };
-		DADDB5131BC8EEFD0029AC56 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB50F1BC8EEFD0029AC56 /* DCPathCenterButton.m */; settings = {ASSET_TAGS = (); }; };
-		DADDB5141BC8EEFD0029AC56 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB5111BC8EEFD0029AC56 /* DCPathItemButton.m */; settings = {ASSET_TAGS = (); }; };
+		DADDB5121BC8EEFD0029AC56 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB50D1BC8EEFD0029AC56 /* DCPathButton.m */; };
+		DADDB5131BC8EEFD0029AC56 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB50F1BC8EEFD0029AC56 /* DCPathCenterButton.m */; };
+		DADDB5141BC8EEFD0029AC56 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB5111BC8EEFD0029AC56 /* DCPathItemButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -409,6 +409,7 @@
 				TargetAttributes = {
 					DA8894061B53E3FF00B47DE7 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = D52FXE4R6B;
 					};
 					DA88941F1B53E3FF00B47DE7 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -421,6 +422,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -628,10 +630,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D52FXE4R6B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/侧滑菜单/PrefixHeader.pch";
 				INFOPLIST_FILE = "侧滑菜单/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeir.coreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -642,10 +646,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D52FXE4R6B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/侧滑菜单/PrefixHeader.pch";
 				INFOPLIST_FILE = "侧滑菜单/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeir.coreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
